@@ -1,4 +1,4 @@
-package com.vytruck.runners;
+package com.vytrack.runners;
 
 
 import io.cucumber.junit.Cucumber;
@@ -7,7 +7,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/features"
+        features = "src/test/resources/features",
+        glue = "com/vytrack/step_definitions"
 )
 public class CukesRunner {
 }
