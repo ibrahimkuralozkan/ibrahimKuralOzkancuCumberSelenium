@@ -9,7 +9,7 @@ Feature: Navigation Menu
     When the user navigates ti Fleet, Vehicles
     Then the title should be Vehicles
 
-
+@Db
     Scenario: Navigating Markeing - Campaigns
       Given the user is on the login page
       And the user enters the sales manager information
