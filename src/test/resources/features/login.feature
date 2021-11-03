@@ -1,5 +1,5 @@
 Feature: Users should be able to login
-
+  @driver
   Scenario: Login as a driver
 
     Given the user is on the login page
@@ -12,7 +12,7 @@ Feature: Users should be able to login
     When the user enters the sales manager information
     Then the user should be able to login
 
-
+  @store_manager
   Scenario: Login as a stores manager
 
     Given the user is on the login page
