@@ -8,7 +8,8 @@ public class LoginStepDefs {
 
 
     @Given("the user is on the login page")
-    public void the_user_is_on_the_login_page() {
+    public void the_user_is_on_the_login_page() throws InterruptedException {
+       // Thread.sleep(5000);
         // Write code here that turns the phrase above into concrete actions
         System.out.println("I open browser and navigate to vytrack login page");
     }
