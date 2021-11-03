@@ -34,4 +34,6 @@ public class LoginStepDefs {
     @When("the user enters the stores manager information")
     public void theUserEntersTheStoresManagerInformation() {
     }
+
+
 }
